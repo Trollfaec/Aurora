@@ -1,5 +1,7 @@
 # AURORA PROJECT
 ![image alt](https://github.com/Trollfaec/Aurora/blob/main/AuroraLogo.png?raw=true)
+
+
 *Aurora is an os.*
 
 Aurora is based on Ubuntu (Debian) Linux, offering easy to use experience
