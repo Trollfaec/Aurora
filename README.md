@@ -1,2 +1,2 @@
-# AURORA INFO
-Aurora is still in development, the dev version will be released at least in june, might be earlier, might be later
+# AURORA PROJECT
+![image alt](https://github.com/Trollfaec/Aurora/blob/main/AuroraLogo.png?raw=true)
