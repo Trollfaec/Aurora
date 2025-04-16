@@ -2,62 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aurora</title>
-  <style>
-    /* Reset and font */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #1f1c2c, #928dab);
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-    }
-
-    p {
-      font-size: 1.2em;
-      opacity: 0.8;
-      margin-bottom: 2em;
-    }
-
-    a.button {
-      background: white;
-      color: #1f1c2c;
-      padding: 15px 30px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s ease;
-    }
-
-    a.button:hover {
-      background: #eee;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.8em;
-      opacity: 0.5;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aurora OS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Aurora OS</h1>
-  <p>The next-generation operating system. Fast. Beautiful. Open.</p>
-  <a class="button" href="https://github.com/trollfaec/aurora" target="_blank">View on GitHub</a>
+  <div class="container">
+    <img src="auroraNEWlogo-removebg-preview.png" alt="Aurora Logo" class="logo"/>
+    <h1>Aurora OS</h1>
+    <p>The next-generation operating system. Fast. Beautiful. Open.</p>
+    <div class="buttons">
+      <a href="#" class="button">Download</a>
+      <a href="docs.html" class="button secondary">Documentation</a>
+    </div>
+  </div>
   <footer>&copy; 2025 Aurora OS</footer>
 </body>
 </html>
