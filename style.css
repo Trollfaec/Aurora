@@ -1,0 +1,75 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Theme */
+body {
+  background: linear-gradient(135deg, #09203f, #00d4ff);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  background: white;
+  color: #09203f;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #f0f0f0;
+}
+
+.button.secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.button.secondary:hover {
+  background: white;
+  color: #09203f;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
