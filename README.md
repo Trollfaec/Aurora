@@ -1,5 +1,5 @@
 # AURORA PROJECT
-![image alt](https://github.com/Trollfaec/Aurora/blob/main/AuroraLogo.png?raw=true)
+![image alt](https://github.com/Trollfaec/Aurora/blob/main/auroraNEWlogo-removebg-preview.png?raw=true)
 
 
 *Aurora is an os.*
