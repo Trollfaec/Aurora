@@ -1,7 +1,7 @@
 ![image alt](https://github.com/Trollfaec/Aurora/blob/main/auroraNEWlogo-removebg-preview.png?raw=true)
 
 
-*the friendly linux*
+*The next-generation operating system. Fast. Beautiful. Open.*
 
 # ABOUT AURORA
 
