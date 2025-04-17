@@ -1,10 +1,9 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #000000, #001a1a, #000033);
-background-size: 400% 400%;
-animation: auroraBG 20s ease infinite;
-  color: #e0ffe0; /* Light green-tinted text */
+  background: linear-gradient(135deg, #000000 0%, #001f1f 50%, #000000 100%);
+  background-attachment: fixed;
+  color: #e0ffe0;
   line-height: 1.6;
   text-align: center;
 }
@@ -13,12 +12,12 @@ animation: auroraBG 20s ease infinite;
   max-width: 900px;
   margin: 60px auto;
   padding: 30px;
-  background: linear-gradient(145deg, #001f33, #001a26); /* dark blue-green bg */
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 16px;
-  box-shadow: 0 0 20px #0ff3, 0 0 30px #0f3a;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
 }
 
-  .logo {
+.logo {
   max-width: 260px;
   height: auto;
   margin-bottom: 30px;
@@ -35,16 +34,14 @@ animation: auroraBG 20s ease infinite;
   }
 }
 
-}
-
 h1, h2 {
-  color: #66ffcc; /* Light greenish-cyan */
+  color: #66ffcc;
   margin-bottom: 16px;
 }
 
 p, li {
   font-size: 1.1rem;
-  color: #cfffff;
+  color: #f8fff8;
   text-align: center;
 }
 
@@ -63,35 +60,34 @@ ul, ol {
   display: inline-block;
   margin: 12px;
   padding: 14px 28px;
-  background: linear-gradient(90deg, #00ccff, #66ffcc); /* blue to green */
-  color: #000;
+  background: white;
+  color: black;
   font-weight: bold;
   border: none;
   border-radius: 10px;
   text-decoration: none;
-  transition: 0.3s ease;
-  box-shadow: 0 0 8px #0ff;
+  transition: 0.2s ease;
 }
 
 .button:hover {
-  transform: scale(1.07);
-  box-shadow: 0 0 15px #66ffcc;
+  background: #e0e0e0;
+  transform: scale(1.05);
 }
 
 .button.secondary {
   background: transparent;
-  border: 2px solid #66ffcc;
-  color: #66ffcc;
+  border: 2px solid white;
+  color: white;
 }
 
 .version-box {
-  background: rgba(0, 64, 64, 0.4);
+  background: rgba(0, 64, 64, 0.3);
   border: 2px solid #00ccff;
   border-radius: 12px;
   padding: 25px;
   margin: 40px 0;
   text-align: center;
-  box-shadow: 0 0 15px #004455;
+  box-shadow: 0 0 10px #003344;
 }
 
 .version-box h2 {
@@ -134,4 +130,3 @@ ul, ol {
 .footer a:hover {
   text-decoration: underline;
 }
-
