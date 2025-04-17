@@ -1,11 +1,9 @@
-/* Base Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Theme */
 body {
   background: linear-gradient(135deg, #09203f, #00d4ff);
   color: white;
@@ -19,27 +17,42 @@ body {
   padding: 20px;
 }
 
+.container {
+  max-width: 600px;
+}
+
 .logo {
   width: 150px;
   margin-bottom: 20px;
 }
 
+.animate {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
 p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
   opacity: 0.9;
 }
 
-.buttons {
+nav.buttons {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 15px;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .button {
@@ -68,8 +81,9 @@ p {
 }
 
 footer {
-  position: absolute;
-  bottom: 20px;
+  margin-top: auto;
+  padding: 20px;
   font-size: 0.8rem;
   opacity: 0.5;
 }
+
