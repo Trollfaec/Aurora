@@ -1,7 +1,9 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #000;
+  background: linear-gradient(135deg, #000000, #001a1a, #000033);
+background-size: 400% 400%;
+animation: auroraBG 20s ease infinite;
   color: #e0ffe0; /* Light green-tinted text */
   line-height: 1.6;
   text-align: center;
