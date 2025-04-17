@@ -98,7 +98,18 @@ ol {
   border: 1px solid #333;
   border-radius: 8px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 30px 0;
   background-color: #1a1a1a;
   text-align: left;
 }
+
+.version-box .button {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+ul li,
+.version-box p {
+  margin-bottom: 10px;
+}
+
